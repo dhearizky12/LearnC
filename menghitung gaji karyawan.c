@@ -5,7 +5,8 @@
 // Fungsi untuk memvalidasi input sebagai angka
 int isValidInput(const char *input) {
     int dotCount = 0; // Untuk menghitung titik desimal
-    while (*input) {
+    while (*input) 
+    {
         if (*input == '.') {
             dotCount++;
             if (dotCount > 1) return 0; // Lebih dari satu titik

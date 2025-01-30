@@ -40,3 +40,10 @@ int main()
 
     return 0;
 }
+
+/*
+    Penjelasan:
+    • srand(time(0)); menginisialisasi seed untuk pengacakan berdasarkan waktu saat
+    ini.
+    • arr[i] = rand() % 100; mengisi array dengan nilai acak antara 0 dan 99.
+*/
